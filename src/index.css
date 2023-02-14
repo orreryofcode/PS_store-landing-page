@@ -2,7 +2,7 @@
 :root {
   --color-primary-light: #0070cc;
   --color-primary-dark: #005499;
-  --color-secondary-light: #e0e3e5;
+  --color-secondary-light: #f2f2f2;
   --color-secondary-dark: #2c2c2c;
   --color-black: #000000;
   --color-white: #ffffff;
@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
   background-color: var(--color-white);
   z-index: 1;
   top: 0;
@@ -55,6 +55,7 @@ body {
 
 .navbar__wrapper {
   margin: 0 auto;
+  transform: translateX(-10rem);
 }
 
 .navbar ul {
@@ -67,6 +68,7 @@ body {
   border: none;
   border-radius: 2rem;
   font-weight: 700;
+  font-size: 1.8rem;
 }
 
 .btn:hover {
@@ -79,6 +81,17 @@ body {
   padding: 1rem 2rem;
 }
 
+.btn-secondary {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 1rem 2.5rem;
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-light);
+}
+
 .grid__container {
   padding: var(--default-padding);
 }
@@ -88,7 +101,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 10rem 1rem;
+  padding: 8rem 0rem;
 }
 
 .grid__wrapper--carousel {
@@ -130,6 +143,7 @@ body {
 
 .promo__banner {
   width: 100%;
+  height: 430px;
   position: absolute;
   background-position: center;
   background-size: cover;
@@ -141,8 +155,8 @@ body {
 }
 
 .promo__banner--img {
-  margin-left: 27%;
-  width: 350px;
+  margin-left: 27.5%;
+  width: 340px;
 }
 
 .promo__banner--content {
@@ -151,13 +165,14 @@ body {
   align-items: flex-end;
   justify-content: space-between;
   width: 100%;
-  padding: 2rem 2rem;
+  padding: 0rem 2rem;
+  padding-bottom: 5rem;
 }
 
 .promo__banner--content--heading {
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 .spacer {
-  height: 500px;
+  height: 600px;
 }

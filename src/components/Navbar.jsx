@@ -1,6 +1,6 @@
-import { Button } from "./Button";
 import icon from "../assets/imgs/ps-icon.svg";
 import text from "../assets/imgs/ps-text.svg";
+import { NavButton } from "./NavButton";
 
 export function Navbar() {
   return (
@@ -14,22 +14,22 @@ export function Navbar() {
         <nav className='navbar'>
           <ul>
             <li>
-              <Button />
+              <NavButton text={"Latest"} />
             </li>
             <li>
-              <Button />
+              <NavButton text={"Collections"} />
             </li>
             <li>
-              <Button />
+              <NavButton text={"Deals"} />
             </li>
             <li>
-              <Button />
+              <NavButton text={"PS5"} />
             </li>
             <li>
-              <Button />
+              <NavButton text={"Subscriptions"} />
             </li>
             <li>
-              <Button />
+              <NavButton text={"Browse"} />
             </li>
           </ul>
         </nav>

@@ -4,6 +4,7 @@ export function GameCard() {
   return (
     <div className='card card--s'>
       <img src={img} alt='' className='card__img ' />
+      <h2>Wild Hearts</h2>
     </div>
   );
 }

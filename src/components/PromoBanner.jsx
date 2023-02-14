@@ -18,7 +18,7 @@ export function PromoBanner() {
           <p>Your legacy is what you make of it. Live the Unwritten.</p>
         </div>
 
-        <Button />
+        <Button text={"Buy Now"} />
       </div>
     </div>
   );
