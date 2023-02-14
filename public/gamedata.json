@@ -4,7 +4,8 @@
     "top": true,
     "recent": true,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 },
 {
     "name": "NBA 2K23",
@@ -12,98 +13,112 @@
     "top": true,
     "recent": false,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "Fortnite",
     "img": "fortnite.webp",
     "top": true,
     "recent": false,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "Madden NFL 23 PS5",
     "img": "madden.webp",
     "top": true,
     "recent": false,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "EA SPORTS FIFA 23",
     "img": "fifa.webp",
     "top": true,
     "recent": false,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "Genshin Impact",
     "img": "genshin.webp",
     "top": true,
     "recent": false,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "Dead Space",
     "img": "deadspace.webp",
     "top": false,
     "recent": true,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "Monster Hunter Rise",
     "img": "monhun.jpg",
     "top": false,
     "recent": true,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "Forspoken",
     "img": "forspoken.jpg",
     "top": false,
     "recent": true,
     "unreleased": false,
-    "demo": true
+    "demo": true,
+    "platforms": ["PS5"]
 }, {
     "name": "HITMAN 3",
     "img": "hitman.avif",
     "top": false,
     "recent": true,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "SpongeBob SquarePants: The Cosmic Shake",
     "img": "spongebob.webp",
     "top": false,
     "recent": true,
     "unreleased": false,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "MLB The Show 23",
     "img": "mlb.avif",
     "top": false,
     "recent": false,
     "unreleased": true,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "WWE 2K23",
     "img": "wwe.avif",
     "top": false,
     "recent": false,
     "unreleased": true,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "Wild Hearts",
     "img": "wild-hearts-std.jpg",
     "top": false,
     "recent": false,
     "unreleased": true,
-    "demo": false
+    "demo": false,
+    "platforms": null
 },{
     "name": "Resident Evil 4",
     "img": "re4.webp",
     "top": false,
     "recent": false,
     "unreleased": true,
-    "demo": false
+    "demo": false,
+    "platforms": null
 },
 {
     "name": "Like a Dragon: Ishin!",
@@ -111,21 +126,24 @@
     "top": false,
     "recent": false,
     "unreleased": true,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "STAR WARS Jedi: Survivor",
     "img": "starwars.webp",
     "top": false,
     "recent": false,
     "unreleased": true,
-    "demo": false
+    "demo": false,
+    "platforms": null
 }, {
     "name": "OCTOPATH TRAVELER II Prologue Demo",
     "img": "octopath.avif",
     "top": false,
     "recent": false,
     "unreleased": false,
-    "demo": true
+    "demo": true,
+    "platforms": ["PS5"]
 },
 {
     "name": "THEATRHYTHYM FINAL BAR LINE DEMO Version",
@@ -133,7 +151,8 @@
     "top": false,
     "recent": false,
     "unreleased": false,
-    "demo": true
+    "demo": true,
+    "platforms": ["PS4"]
 },
 {
     "name": "ONE PIECE ODYSSEY Demo",
@@ -141,7 +160,8 @@
     "top": false,
     "recent": false,
     "unreleased": false,
-    "demo": true
+    "demo": true,
+    "platforms": ["PS5", "PS4"]
 },
 {
     "name": "DRAGON BALL Z: KAKAROT Demo Version",
@@ -149,7 +169,8 @@
     "top": false,
     "recent": false,
     "unreleased": false,
-    "demo": true
+    "demo": true,
+    "platforms": ["PS4"]
 },
 {
     "name": "MONOPOLY MADNESS DEMO",
@@ -157,6 +178,7 @@
     "top": false,
     "recent": false,
     "unreleased": false,
-    "demo": true
+    "demo": true,
+    "platforms": ["PS4"]
 }
 ]

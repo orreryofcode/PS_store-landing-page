@@ -68,7 +68,12 @@ export function GamesCarousel({ type }) {
             {gameData.map(
               (game, idx) =>
                 game.demo && (
-                  <GameCard title={game.name} img={game.img} key={idx} />
+                  <GameCard
+                    title={game.name}
+                    img={game.img}
+                    platforms={game.platforms}
+                    key={idx}
+                  />
                 )
             )}
             <button className='carousel-btn'>&gt;</button>
