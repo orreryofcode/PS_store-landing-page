@@ -101,12 +101,14 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 8rem 0rem;
+  padding: 4rem 0rem;
+  padding-top: 8rem;
 }
 
 .grid__wrapper--carousel {
   flex-wrap: nowrap;
-  padding-bottom: 15rem;
+  padding-top: 0;
+  padding-bottom: 8rem;
 }
 
 .grid__wrapper--carousel--heading {
@@ -129,7 +131,6 @@ body {
 .card__img {
   border-radius: 1rem;
   width: 100%;
-  height: 100%;
 }
 
 .promo__banner--container {
@@ -144,6 +145,7 @@ body {
 .promo__banner {
   width: 100%;
   height: 430px;
+  transform: translateY(-5rem);
   position: absolute;
   background-position: center;
   background-size: cover;
@@ -174,5 +176,5 @@ body {
 }
 
 .spacer {
-  height: 600px;
+  height: 550px;
 }

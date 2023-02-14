@@ -1,10 +1,8 @@
-import img from "../assets/imgs/game_art/wild-hearts.avif";
-
-export function GameCard() {
+export function GameCard({ title, img }) {
   return (
     <div className='card card--s'>
-      <img src={img} alt='' className='card__img ' />
-      <h2>Wild Hearts</h2>
+      <img src={`/game_art/${img}`} alt='' className='card__img ' />
+      <h2>{title}</h2>
     </div>
   );
 }

@@ -1,6 +1,4 @@
-import img from "../assets/imgs/game_art/wild-hearts.avif";
-
-export function CategoryCard() {
+export function CategoryCard({ img }) {
   return (
     <div className='card card--lrg'>
       <img src={img} alt='' className='card__img ' />

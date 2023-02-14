@@ -1,0 +1,162 @@
+[{
+    "name": "Hogwarts Legacy",
+    "img": "hogwarts.webp",
+    "top": true,
+    "recent": true,
+    "unreleased": false,
+    "demo": false
+},
+{
+    "name": "NBA 2K23",
+    "img": "2K.avif",
+    "top": true,
+    "recent": false,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "Fortnite",
+    "img": "fortnite.webp",
+    "top": true,
+    "recent": false,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "Madden NFL 23 PS5",
+    "img": "madden.webp",
+    "top": true,
+    "recent": false,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "EA SPORTS FIFA 23",
+    "img": "fifa.webp",
+    "top": true,
+    "recent": false,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "Genshin Impact",
+    "img": "genshin.webp",
+    "top": true,
+    "recent": false,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "Dead Space",
+    "img": "deadspace.webp",
+    "top": false,
+    "recent": true,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "Monster Hunter Rise",
+    "img": "monhun.jpg",
+    "top": false,
+    "recent": true,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "Forspoken",
+    "img": "forspoken.jpg",
+    "top": false,
+    "recent": true,
+    "unreleased": false,
+    "demo": true
+}, {
+    "name": "HITMAN 3",
+    "img": "hitman.avif",
+    "top": false,
+    "recent": true,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "SpongeBob SquarePants: The Cosmic Shake",
+    "img": "spongebob.webp",
+    "top": false,
+    "recent": true,
+    "unreleased": false,
+    "demo": false
+}, {
+    "name": "MLB The Show 23",
+    "img": "mlb.avif",
+    "top": false,
+    "recent": false,
+    "unreleased": true,
+    "demo": false
+}, {
+    "name": "WWE 2K23",
+    "img": "wwe.avif",
+    "top": false,
+    "recent": false,
+    "unreleased": true,
+    "demo": false
+}, {
+    "name": "Wild Hearts",
+    "img": "wild-hearts-std.jpg",
+    "top": false,
+    "recent": false,
+    "unreleased": true,
+    "demo": false
+},{
+    "name": "Resident Evil 4",
+    "img": "re4.webp",
+    "top": false,
+    "recent": false,
+    "unreleased": true,
+    "demo": false
+},
+{
+    "name": "Like a Dragon: Ishin!",
+    "img": "LAD.webp",
+    "top": false,
+    "recent": false,
+    "unreleased": true,
+    "demo": false
+}, {
+    "name": "STAR WARS Jedi: Survivor",
+    "img": "starwars.webp",
+    "top": false,
+    "recent": false,
+    "unreleased": true,
+    "demo": false
+}, {
+    "name": "OCTOPATH TRAVELER II Prologue Demo",
+    "img": "octopath.avif",
+    "top": false,
+    "recent": false,
+    "unreleased": false,
+    "demo": true
+},
+{
+    "name": "THEATRHYTHYM FINAL BAR LINE DEMO Version",
+    "img": "theatrhythm.avif",
+    "top": false,
+    "recent": false,
+    "unreleased": false,
+    "demo": true
+},
+{
+    "name": "ONE PIECE ODYSSEY Demo",
+    "img": "onepiece.webp",
+    "top": false,
+    "recent": false,
+    "unreleased": false,
+    "demo": true
+},
+{
+    "name": "DRAGON BALL Z: KAKAROT Demo Version",
+    "img": "kakarot.webp",
+    "top": false,
+    "recent": false,
+    "unreleased": false,
+    "demo": true
+},
+{
+    "name": "MONOPOLY MADNESS DEMO",
+    "img": "monopoly.webp",
+    "top": false,
+    "recent": false,
+    "unreleased": false,
+    "demo": true
+}
+]
