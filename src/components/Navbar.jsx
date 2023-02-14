@@ -6,8 +6,8 @@ export function Navbar() {
   return (
     <div className='navbar__container'>
       <div className='navbar__logo'>
-        <img src={icon} alt='' className='icon' />
-        <img src={text} alt='' className='text' />
+        <img src={icon} alt='PlayStation Store Logo' className='icon' />
+        <img src={text} alt='PlayStation Store Logo' className='text' />
       </div>
 
       <div className='navbar__wrapper'>

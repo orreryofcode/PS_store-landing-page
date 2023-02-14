@@ -1,24 +1,27 @@
-import bg from "../assets/imgs/game_art/hogwarts__bg.jpg";
-import logo from "../assets/imgs/game_art/hogwarts__logo.svg";
 import { Button } from "./Button";
 
-export function PromoBanner() {
+export function PromoBanner({ banner }) {
   return (
     <div className='promo__banner--container'>
       <div className='spacer'></div>
-      <div className='promo__banner' style={{ backgroundImage: `url(${bg})` }}>
-        <img src={logo} alt='' className='promo__banner--img' />
+      <div
+        className='promo__banner'
+        style={{ backgroundImage: `url(${banner.bgImg})` }}>
+        <img src={banner.txtImg} alt='' className='promo__banner--img' />
+        <img src={banner.heroImg} alt='' className='promo__banner--hero' />
       </div>
       <div className='promo__banner--content'>
         <div>
           <div className='promo__banner--content--heading'>
-            <h1>Hogwarts Legacy</h1>
+            <h2>{banner.featured}</h2>
           </div>
 
-          <p>Your legacy is what you make of it. Live the Unwritten.</p>
+          <p>{banner.tagline}</p>
         </div>
 
-        <Button text={"Buy Now"} />
+        <div className='btn__container'>
+          <Button text={banner.btnText} />
+        </div>
       </div>
     </div>
   );
