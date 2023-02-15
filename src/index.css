@@ -9,8 +9,11 @@
   --color-black: #000000;
   --color-white: #ffffff;
 
-  /* Misc */
+  /* screen size spacing */
   --default-padding: 0 32rem;
+  --lg-screen-padding: 0 8rem;
+
+  /* Misc */
   --box-shadow: 0px 25px 25px 5px rgba(0, 0, 0, 0.1);
   --heading-font-size: 3.2rem;
 }
@@ -135,7 +138,9 @@ body {
 }
 
 .grid__container {
-  padding: var(--default-padding);
+  /* padding: var(--default-padding); */
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .grid__heading h2 {
@@ -143,10 +148,13 @@ body {
   text-align: center;
   font-weight: 300;
   font-size: var(--heading-font-size);
-  padding-top: 7rem;
+  padding-top: 2rem;
+  transform: translateY(5rem);
 }
 
 .grid__wrapper {
+  max-width: 80vw;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -279,4 +287,39 @@ body {
 
 .spacer {
   height: 55rem;
+}
+
+@media (max-width: 1920px) {
+  .promo__banner--container {
+    padding: var(--lg-screen-padding);
+    max-width: 95vw;
+  }
+
+  .promo__banner--content {
+    max-width: 95vw;
+  }
+
+  .grid__container {
+    padding: 0 8rem;
+    max-width: 95vw;
+  }
+
+  .grid__wrapper {
+    max-width: 95vw;
+  }
+  .card--lrg {
+    width: 40rem;
+  }
+
+  .grid__wrapper--carousel {
+    padding-bottom: 8rem;
+  }
+
+  .promo__banner--img {
+    margin-left: 25%;
+  }
+
+  .promo__banner--hero {
+    right: 30%;
+  }
 }
